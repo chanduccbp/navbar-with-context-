@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.darkThemeClass {
+  min-height: 10vh;
+  font-family: 'roboto';
+  color: #ffffff;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.lightThemeClass {
+  min-height: 10vh;
+  font-family: 'roboto';
+  color: #1e293b;
+  background-color: #ffffff;
+  border-bottom: solid 1px #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu-cont {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.darkThemeClassLink {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.lightThemeClassLink {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #1e293b;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.theme-butt {
+  border-style: none;
+  background-color: transparent;
+}
